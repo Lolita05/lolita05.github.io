@@ -117,7 +117,7 @@ lymphomas, improving diagnostic precision and patient care strategies.
       - Conducted microbiome analyses for over 1,000 colorectal and pancreatic cancer cases from TCGA, CPTAC, and proprietary datasets. Identified key correlations between survival status, gene expressions, and microbiome presence, leading to the development of novel prognostic biomarkers based on bacterial genera.
       - Enhanced machine learning models for bacterial classification and built a specialized pipeline for bacterial transcript detection in RNA-seq data.
     - position: Junior Research Scientist
-    company_name: Federal Research Centre “Fundamentals of Biotechnology” of the Russian Academy of Sciences
+    company_name: Federal Research Centre "Fundamentals of Biotechnology" of the Russian Academy of Sciences
     company_url: 'https://www.fbras.ru/en/'
     company_logo: ''
     date_start: 2017-09-01
