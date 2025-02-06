@@ -92,7 +92,7 @@ work:
     summary: |
       Responsibilities include:
       - Led collaborative Liquid Biopsy projects, specializing in ctDNA data analysis for patients with solid tumors and
-lymphomas, improving diagnostic precision and patient care strategies.
+        lymphomas, improving diagnostic precision and patient care strategies.
       - Developed automated bioinformatics analysis systems for large cohorts, reducing validation errors and expediting turnaround times.
       - Implemented validation workflows for somatic and germline mutation analysis, ensuring high accuracy and regulatory compliance.
   - position: Bioinformatician
@@ -114,9 +114,10 @@ lymphomas, improving diagnostic precision and patient care strategies.
     date_end: 2022-09-01
     summary: |
       Responsibilities include:
-      - Conducted microbiome analyses for over 1,000 colorectal and pancreatic cancer cases from TCGA, CPTAC, and proprietary datasets. Identified key correlations between survival status, gene expressions, and microbiome presence, leading to the development of novel prognostic biomarkers based on bacterial genera.
+      - Conducted microbiome analyses for over 1,000 colorectal and pancreatic cancer cases from TCGA, CPTAC, and proprietary datasets.
+        Identified key correlations between survival status, gene expressions, and microbiome presence, leading to the development of novel prognostic biomarkers based on bacterial genera.
       - Enhanced machine learning models for bacterial classification and built a specialized pipeline for bacterial transcript detection in RNA-seq data.
-    - position: Junior Research Scientist
+  - position: Junior Research Scientist
     company_name: Federal Research Centre "Fundamentals of Biotechnology" of the Russian Academy of Sciences
     company_url: 'https://www.fbras.ru/en/'
     company_logo: ''
@@ -164,15 +165,11 @@ skills:
         description: ''
         percent: 40
         icon: timeline-arrow
-      - name: Nextflow
-        description: ''
-        percent: 40
-        icon: timeline-arrow
   - name: Bioinformatics & Data Analysis
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: NGS (WES, RNA-Seq, WGS, cfDNA),
+      - name: NGS (WES, RNA-Seq, WGS, cfDNA)
         description: ''
         percent: 60
         icon: person-simple-walk
