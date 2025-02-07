@@ -8,7 +8,7 @@ last_name: Alekseeva
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🍵
 
 # Is this the primary user of the site?
 superuser: true
@@ -44,7 +44,7 @@ interests:
 
 education:
   - area: Bioinformatics Certification
-    institution: [Bioinformatics Institute](https://bioinf.me/en)
+    institution: "[Bioinformatics Institute](https://bioinf.me/en)"
     date_start: 2019-09-01
     date_end: 2020-12-31
     summary: |
@@ -118,7 +118,7 @@ work:
         Identified key correlations between survival status, gene expressions, and microbiome presence, leading to the development of novel prognostic biomarkers based on bacterial genera.
       - Enhanced machine learning models for bacterial classification and built a specialized pipeline for bacterial transcript detection in RNA-seq data.
   - position: Junior Research Scientist
-    company_name: Federal Research Centre "Fundamentals of Biotechnology" of the Russian Academy of Sciences
+    company_name: 'Federal Research Centre "Fundamentals of Biotechnology" of the Russian Academy of Sciences'
     company_url: 'https://www.fbras.ru/en/'
     company_logo: ''
     date_start: 2017-09-01
@@ -131,6 +131,42 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
+  - name: Bioinformatics & Data Analysis
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: NGS (WES, RNA-Seq, WGS, cfDNA)
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Metagenomics
+        description: ''
+        percent: 100
+        icon: cat
+      - name: Single-Cell
+        description: ''
+        percent: 80
+        icon: camera
+      - name: Microbiome
+        description: ''
+        percent: 80
+        icon: camera
+      - name: Phylogenetics
+        description: ''
+        percent: 80
+        icon: camera
+      - name: Mutation Calling
+        description: ''
+        percent: 80
+        icon: camera
+      - name: ML & Statistics
+        description: ''
+        percent: 80
+        icon: camera
+      - name: Cancer Repositories (TCGA, CPTAC)
+        description: ''
+        percent: 80
+        icon: camera
   - name: Programming & Data Management
     items:
       - name: Python
@@ -152,38 +188,67 @@ skills:
       - name: Git
         description: ''
         percent: 40
-        icon: code-commit
+        icon: adjustments-horizontal
       - name: AWS
         description: ''
         percent: 40
-        icon: aws
+        icon: arrow-trending-up
       - name: Docker
         description: ''
         percent: 40
-        icon: docker
+        icon: wrench-screwdriver
       - name: Nextflow
         description: ''
         percent: 40
-        icon: timeline-arrow
-  - name: Bioinformatics & Data Analysis
-    color: '#eeac02'
-    color_border: '#f0bf23'
+        icon: bars-3
+      - name: LLM
+        description: ''
+        percent: 40
+        icon: bars-3
+  - name: Molecular & Microbiology Techniques
     items:
-      - name: NGS (WES, RNA-Seq, WGS, cfDNA)
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Metagenomics
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Single-Cell RNA-Seq
+      - name: DNA Extraction
         description: ''
         percent: 80
-        icon: camera
+        icon: code-bracket
+      - name: PCR
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Gel Electrophoresis
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: FISH
+        description: ''
+        percent: 40
+        icon: circle-stack
+      - name: TEM
+        description: ''
+        percent: 40
+        icon: adjustments-horizontal
+      - name: Microtomography
+        description: ''
+        percent: 40
+        icon: wrench-screwdriver
+      - name: Cultivation
+        description: ''
+        percent: 40
+        icon: wrench-screwdriver
+      - name: Strain Isolation
+        description: ''
+        percent: 40
+        icon: bars-3
+
+languages:
+  - name: English
+    percent: 90
+  - name: Russian
+    percent: 100
 ---
 
-## Hi!
+## About me
 
 My name is Lolita. I'm a bioinformatician and data scientist with a passion for using data to solve complex problems. I'm currently working as a Senior Bioinformatician at BostonGene, where I lead collaborative Liquid Biopsy projects, specializing in ctDNA data analysis for patients with solid tumors and lymphomas, improving diagnostic precision and patient care strategies.
+
 
