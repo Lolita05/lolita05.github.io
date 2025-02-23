@@ -1,75 +1,38 @@
 ---
-title: "An example journal article 4"
+title: Masters Thesis - Diversity of magnetotactic bacteria community in soils, 2018 - 2020
+summary: 
+date: 2020-06-12
 authors:
-- admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
-
-# Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+  - admin
 tags:
-- Source Themes
-featured: false
-
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+  - magnetotactic bacteria
+  - metagenomics
+  - microbiome
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+In my master’s research, we found that the diversity of magnetotactic bacteria (MTB) goes far beyond the well-known phyla. Early hints from previous studies were confirmed by my bachelor’s work, and with the help of a new primer system, we uncovered previously unknown clones that didn’t fit into established groups.
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+We also integrated metagenomic data into the study, broadening the scope of our findings.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Supervisor: [Dr. Denis Grouzdev](https://www.researchgate.net/profile/Denis-Grouzdev)
+
+### My contribution:
+
+- Collected samples and purified MTB cells using the MTB-CoSe method.
+- Conducted 16S and MamK sequencing to reveal their genetic makeup.
+- Searched for 16S sequences in metagenomic data and performed phylogenetic analysis.
+- Identified novel MTB groups using metagenomic analysis, marking the first detection of magnetotactic bacteria among the phyla Ca. Firestonebacteria, Ca. Hydrogenedentes, and Elusimicrobia.
+
+This work led to the discovery of two new species: Candidatus Obscuribacterium magneticum and Candidatus Liberimonas magnetica.
+
+## Publications:
+You can learn more about my work in the following publications:
+- [Looking for a needle in a haystack: magnetotactic bacteria help in “rare biosphere” investigations](https://doi.org/10.1101/2022.07.08.499144)
+- [Recovery and genome reconstruction of novel magnetotactic Elusimicrobiota from bog soil](https://academic.oup.com/ismej/article/17/2/204/7474004?login=false)
+
+## Conference talks:
+I also had the pleasure of presenting these findings at various conferences:
+- **Using the mamK marker gene to study the diversity of magnetotactic bacteria**, *International School of Young Scientists on Molecular Genetics*, 2018-11, Conference poster
+- **Magnetotactic bacteria community in peat bog soils**, *2nd Russian Microbiological Congress*, 2019-09, Conference poster
