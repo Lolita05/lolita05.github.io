@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: Here are a selection of projects that I have worked on. To see more, please visit my [GitHub](https://github.com/Lolita05).
+      text: Below is a selection of projects I've contributed to over the years. For more details and code samples, feel free to explore my [GitHub](https://github.com/Lolita05).
       filters:
         folders:
           - project

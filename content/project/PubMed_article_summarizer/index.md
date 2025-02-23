@@ -3,7 +3,7 @@ title: PubMed article summarizer
 date: 2025-01-20
 external_link: https://github.com/Lolita05/pubmed-rag-summarizer
 tags:
-  - RAG
+  - Machine Learning
   - AI
   - Research
 ---

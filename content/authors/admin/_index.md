@@ -40,48 +40,43 @@ profiles:
 interests:
   - Bioinformatics
   - Computational Biology
-  - Data Science
+  - Cancer Research
+  - Microbiome
 
 education:
   - area: Bioinformatics Certification
-    institution: "[Bioinformatics Institute](https://bioinf.me/en)"
+    institution: "Bioinformatics Institute (https://bioinf.me/en)"
     date_start: 2019-09-01
     date_end: 2020-12-31
     summary: |
       496 academic hours
 
-      Courses included:
-      - Bioinformatics Methods
-      - NGS Data Analysis
-      - Statistics in R
-      - Programming in Python
-      - Discrete Mathematics
-      - Introduction to Machine Learning
-      - Proteomics
-      - Immunogenomics
-      - Gene Expression Analysis (e.g. Single-Cell RNA-Seq)
-      - Comparative Genomics of Prokaryotes
+      Courses included: Bioinformatics Methods, NGS Data Analysis, Statistics in R, Programming in Python, Discrete Mathematics, Introduction to Machine Learning, Proteomics, Immunogenomics, Gene Expression Analysis (e.g. Single-Cell RNA-Seq), Comparative Genomics of Prokaryotes
 
-      Research project: 
+      Research projects: 
       - _The dynamics of diversity and abundance of symbionts in the metatranscriptome_.
       - _HIV molecular mimicry_.
-  - area: Msc in Microbiology
+  - area: MSc in Microbiology
     institution: Lomonosov Moscow State University
     date_start: 2018-09-01
     date_end: 2020-12-31
     summary: |
-      Grade: 4.9/5
-      Thesis on _Magnetotactic bacteria in bog-peat soils_. Part of work presented in article [Magnetotactic bacteria in bog-peat soils](https://www.researchgate.net/publication/356888811_Magnetotactic_bacteria_in_bog-peat_soils).
+      Grade: 4.9/5  
+      Thesis on _Diversity of magnetotactic bacteria community in soils_. Part of work presented in article [Recovery and genome reconstruction of novel magnetotactic Elusimicrobiota from bog soils](https://academic.oup.com/ismej/article/17/2/204/7474004?login=false).
     button:
       text: 'Read Article'
-      url: 'https://link.springer.com/article/10.1134/S002626172003008X'
-  - area: Bsc in Microbiology
+      url: 'https://academic.oup.com/ismej/article/17/2/204/7474004?login=false'
+  - area: BSc in Microbiology
     institution: Lomonosov Moscow State University
     date_start: 2014-09-01
     date_end: 2018-06-30
     summary: |
-      Grade: with honor
-      Thesis on _Magnetotactic bacteria in bog-peat soils_. 
+      Grade: with honor  
+      Thesis on _Investigation of the magnetotactic bacteria species diversity in soil microbial communities using the developed universal primer system_. Part of work presented in article [Biodiversity of Magnetotactic Bacteria in the Freshwater Lake Beloe Bordukovskoe, Russia](https://link.springer.com/article/10.1134/S002626172003008X).
+    button:
+    button:
+      text: 'Read Article'
+      url: 'https://link.springer.com/article/10.1134/S002626172003008X'
 work:
   - position: Senior Bioinformatician
     company_name: BostonGene
@@ -90,11 +85,8 @@ work:
     date_start: 2024-04-01
     date_end: 2024-09-30
     summary: |
-      Responsibilities include:
-      - Led collaborative Liquid Biopsy projects, specializing in ctDNA data analysis for patients with solid tumors and
-        lymphomas, improving diagnostic precision and patient care strategies.
-      - Developed automated bioinformatics analysis systems for large cohorts, reducing validation errors and expediting turnaround times.
-      - Implemented validation workflows for somatic and germline mutation analysis, ensuring high accuracy and regulatory compliance.
+      Led innovative Liquid Biopsy projects focusing on ctDNA analysis for solid tumors and lymphomas. Developed automated pipelines and validation workflows using Python, Nextflow, and CWL to improve diagnostic precision and regulatory compliance.
+
   - position: Bioinformatician
     company_name: BostonGene
     company_url: 'https://bostongene.com/'
@@ -102,10 +94,8 @@ work:
     date_start: 2022-09-01
     date_end: 2024-04-01
     summary: |
-      Responsibilities include:
-      - Integrated and optimized pipelines for indel and SNP detection, improving sensitivity in ctDNA and WES data analysis. 
-      - Authored comprehensive SOPs and user manuals for ctDNA-based pipelines.
-      - Contributed to the CLIA certification of liquid biopsy products through robust validation and testing frameworks.
+      Integrated and optimized pipelines for indel and SNP detection in ctDNA and WES data. Authored detailed SOPs and contributed to CLIA certification through rigorous validation and testing.
+      
   - position: Bioinformatician, Data Analyst
     company_name: BostonGene
     company_url: 'https://bostongene.com/'
@@ -113,10 +103,8 @@ work:
     date_start: 2021-09-01
     date_end: 2022-09-01
     summary: |
-      Responsibilities include:
-      - Conducted microbiome analyses for over 1,000 colorectal and pancreatic cancer cases from TCGA, CPTAC, and proprietary datasets.
-        Identified key correlations between survival status, gene expressions, and microbiome presence, leading to the development of novel prognostic biomarkers based on bacterial genera.
-      - Enhanced machine learning models for bacterial classification and built a specialized pipeline for bacterial transcript detection in RNA-seq data.
+      Conducted microbiome analyses on over 1,000 colorectal and pancreatic cancer cases using data from TCGA, CPTAC, and proprietary sources. Enhanced machine learning models for bacterial classification and developed specialized pipelines for detecting bacterial transcripts in RNA-seq data.
+
   - position: Junior Research Scientist
     company_name: 'Federal Research Centre "Fundamentals of Biotechnology" of the Russian Academy of Sciences'
     company_url: 'https://www.fbras.ru/en/'
@@ -124,20 +112,18 @@ work:
     date_start: 2017-09-01
     date_end: 2020-09-30
     summary: |
-      Responsibilities include:
-      - Investigated the taxonomy, phylogeny, and evolution of magnetotactic bacteria in environmental samples using metagenomic workflows (NGS data, taxonomic classification systems) and large-scale sequence database retrieval (NCBI, JGI/IMG).
-      - Enhanced machine learning models for bacterial classification and built a specialized pipeline for bacterial transcript detection in RNA-seq data.
+      Investigated the taxonomy, phylogeny, and evolution of magnetotactic bacteria in environmental samples using metagenomic workflows (NGS data, taxonomic classification systems) and large-scale sequence database retrieval (NCBI, JGI/IMG).
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Bioinformatics & Data Analysis
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: Bioinformatics
+    color: '#FFCE1B'
+    color_border: '#FFCE1B'
     items:
-      - name: NGS (WES, RNA-Seq, WGS, cfDNA)
+      - name: NGS
         description: ''
-        percent: 60
+        percent: 100
         icon: person-simple-walk
       - name: Metagenomics
         description: ''
@@ -145,110 +131,109 @@ skills:
         icon: cat
       - name: Single-Cell
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
       - name: Microbiome
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
       - name: Phylogenetics
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
       - name: Mutation Calling
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
       - name: ML & Statistics
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
       - name: Cancer Repositories (TCGA, CPTAC)
         description: ''
-        percent: 80
+        percent: 100
         icon: camera
-  - name: Programming & Data Management
+  - name: Programming
+    color: '#3F92B6'
+    color_border: '#3F92B6'
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: R
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: Bash
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: SQL
         description: ''
-        percent: 40
+        percent: 100
         icon: circle-stack
       - name: Git
         description: ''
-        percent: 40
+        percent: 100
         icon: adjustments-horizontal
       - name: AWS
         description: ''
-        percent: 40
+        percent: 100
         icon: arrow-trending-up
       - name: Docker
         description: ''
-        percent: 40
+        percent: 100
         icon: wrench-screwdriver
       - name: Nextflow
         description: ''
-        percent: 40
+        percent: 100
         icon: bars-3
       - name: LLM
         description: ''
-        percent: 40
+        percent: 100
         icon: bars-3
-  - name: Molecular & Microbiology Techniques
+  - name: Lab Techniques
+    color: '#3BB8BA'
+    color_border: '#3BB8BA'
     items:
       - name: DNA Extraction
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: PCR
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: Gel Electrophoresis
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: FISH
         description: ''
-        percent: 40
+        percent: 100
         icon: circle-stack
       - name: TEM
         description: ''
-        percent: 40
+        percent: 100
         icon: adjustments-horizontal
       - name: Microtomography
         description: ''
-        percent: 40
+        percent: 100
         icon: wrench-screwdriver
       - name: Cultivation
         description: ''
-        percent: 40
+        percent: 100
         icon: wrench-screwdriver
       - name: Strain Isolation
         description: ''
-        percent: 40
+        percent: 100
         icon: bars-3
 
-languages:
-  - name: English
-    percent: 90
-  - name: Russian
-    percent: 100
 ---
 
 ## About me
 
-My name is Lolita. I'm a bioinformatician and data scientist with a passion for using data to solve complex problems. I'm currently working as a Senior Bioinformatician at BostonGene, where I lead collaborative Liquid Biopsy projects, specializing in ctDNA data analysis for patients with solid tumors and lymphomas, improving diagnostic precision and patient care strategies.
-
+I’m Lolita, a Bioinformatician focused on solving complex problems through data. I currently work at BostonGene, leading Liquid Biopsy projects to enhance cancer diagnosis and treatment using ctDNA analysis. My research areas include cancer and microbiome studies. I aim to use data and technology to drive meaningful insights and advance precision medicine.  
+Welcome to my portfolio!
 

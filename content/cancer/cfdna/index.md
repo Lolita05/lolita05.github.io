@@ -1,75 +1,40 @@
 ---
-title: "An example journal article"
+title: Liquid Biopsy, 2022-2024
+summary: 
+date: 2024-08-23
 authors:
-- admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
-
-# Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+  - admin
 tags:
-- Source Themes
-featured: false
-
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+  - cancer
+  - cfdna
+  - liquid biopsy
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+My main and most recent project has been cfDNA liquid biopsy, on which I worked for two years at BostonGene. In this project, I developed a tumor-informed pipeline to monitor point mutations and indels in blood plasma from patients with hematologic and solid malignancies.
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+Cell-free DNA (cfDNA) in peripheral blood plasma is a promising tool for monitoring minimal residual disease (MRD) in hematologic and solid malignancies. Unlike conventional biopsies, cfDNA extraction is non-invasive and allows for rapid, repeated sampling to monitor disease progression over time. However, current assays are limited in scale by their detection of only a narrow range of mutations, the need for patient- and mutation-specific customization, and constant expert review.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+**Our Approach:**  
+We developed a novel, comprehensive cfDNA testing platform that targets 216 clinically actionable genes—including both exonic and intronic regions—to detect point mutations (SNVs/indels), structural variants, and microsatellite instability (MSI). Using deep sequencing (with a median exon coverage of over 2000×) and an in-house, tumor-informed variant calling algorithm, we established a limit of detection (LOD) of 0.05% variant allele frequency (VAF). Validation was carried out on plasma samples from 74 patients with various solid cancers, as well as on standard reference dilutions (Seraseq® and Twist cfDNA Pan-cancer Reference Standards) using triplicate experiments. In a case study of a follicular lymphoma (FL) patient, our assay detected clinically relevant mutations 14 months earlier than traditional blood cell mutation calling.
+
+**Key Results:**
+
+- Achieved an LOD > 0.05% VAF with sequencing depth >2000x.
+- Sensitivity reached 93–97% and specificity 98–99%.
+- High correlation between replicates (Pearson's r > 0.99, p < 0.0001) confirmed assay robustness for longitudinal monitoring.
+- The assay successfully distinguished true somatic mutations from clonal hematopoiesis of indeterminate potential mutations and detected early disease relapse in an FL patient through analysis of five plasma samples collected over multiple years.
+
+### My contributions:
+- Developed code for the automated processing of patient samples to create a report with found biomarkers.
+- Integrated and optimized pipelines for both indel and SNP detection, boosting sensitivity in ctDNA and WES data analyses.
+- Validated germline and somatic mutation metrics to meet CLIA/CAP standards.
+
+## Conference Talks:
+<div style="text-align: center;">
+          <img src="/images/lb_poster.jpeg" alt="Teaching Photo" style="width:15cm; height:auto;" />
+</div>
+
+You can find conference talks on:
+- [A Novel Comprehensive Tumor-Informed Plasma cfDNA Assay to Monitor Minimal Residual Disease for Hematological and Solid Malignancies (ASH 2023)](https://ash.confex.com/ash/2023/webprogram/Paper174909.html)

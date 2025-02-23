@@ -1,75 +1,26 @@
 ---
-title: "An example journal article 2"
+title: PDAC Tumor Microenvironment, 2022-2023
+summary: 
+date: 2023-01-25
 authors:
-- admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
-
-# Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+  - admin
 tags:
-- Source Themes
-featured: false
-
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+  - cancer
+  - tme
+  - pdac
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+The intricate tumor microenvironment (TME) of pancreatic ductal adenocarcinoma (PDAC) has long hindered the development of reliable predictive biomarkers for targeted therapies and immunomodulatory strategies. A comprehensive understanding of the TME is essential for advancing precision therapeutics in PDAC.
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+In our study, we harnessed transcriptomic data to decode the TME in PDAC. Using a panel of 25 functional gene signatures, we performed unsupervised clustering on data from over 1,600 patients, revealing four distinct TME subtypes. We validated these findings in an independent cohort by correlating each subtype with clinical outcomes and treatment responses. This approach deepened our understanding of cellular interactions within pancreatic tumors and laid the groundwork for more tailored immunotherapy strategies.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+### My Contributions:
+
+- Prepared and processed a private RNA-seq cohort.
+- Conducted comparative analyses of TME subtypes between short-term and long-term survivors.
+
+## Publications:
+
+- [Transcriptomic-Based Microenvironment Classification Reveals Precision Medicine Strategies for Pancreatic Ductal Adenocarcinoma](https://linkinghub.elsevier.com/retrieve/pii/S0016508524000659)
