@@ -45,10 +45,11 @@ interests:
 
 education:
   - area: Bioinformatics Certification
-    institution: "Bioinformatics Institute (https://bioinf.me/en)"
+    institution: Bioinformatics Institute
     date_start: 2019-09-01
     date_end: 2020-12-31
     summary: |
+      [Link to the course](https://bioinf.me/en)  
       496 academic hours
 
       Courses included: Bioinformatics Methods, NGS Data Analysis, Statistics in R, Programming in Python, Discrete Mathematics, Introduction to Machine Learning, Proteomics, Immunogenomics, Gene Expression Analysis (e.g. Single-Cell RNA-Seq), Comparative Genomics of Prokaryotes
@@ -121,78 +122,38 @@ skills:
     color: '#FFCE1B'
     color_border: '#FFCE1B'
     items:
-      - name: NGS
+      - name: NGS (WES, WGS, RNA-seq)
         description: ''
         percent: 100
-        icon: person-simple-walk
+        icon: magnifying-glass
       - name: Metagenomics
         description: ''
         percent: 100
-        icon: cat
-      - name: Single-Cell
+        icon: sparkles
+      - name: Single-Cell RNA-Seq
         description: ''
         percent: 100
-        icon: camera
+        icon: star
       - name: Microbiome
         description: ''
         percent: 100
-        icon: camera
+        icon: bug-ant
       - name: Phylogenetics
         description: ''
         percent: 100
-        icon: camera
+        icon: globe-europe-africa
       - name: Mutation Calling
         description: ''
         percent: 100
-        icon: camera
+        icon: puzzle-piece
       - name: ML & Statistics
         description: ''
         percent: 100
-        icon: camera
+        icon: rocket-launch
       - name: Cancer Repositories (TCGA, CPTAC)
         description: ''
         percent: 100
-        icon: camera
-  - name: Programming
-    color: '#3F92B6'
-    color_border: '#3F92B6'
-    items:
-      - name: Python
-        description: ''
-        percent: 100
-        icon: code-bracket
-      - name: R
-        description: ''
-        percent: 100
-        icon: code-bracket
-      - name: Bash
-        description: ''
-        percent: 100
-        icon: code-bracket
-      - name: SQL
-        description: ''
-        percent: 100
-        icon: circle-stack
-      - name: Git
-        description: ''
-        percent: 100
-        icon: adjustments-horizontal
-      - name: AWS
-        description: ''
-        percent: 100
-        icon: arrow-trending-up
-      - name: Docker
-        description: ''
-        percent: 100
-        icon: wrench-screwdriver
-      - name: Nextflow
-        description: ''
-        percent: 100
-        icon: bars-3
-      - name: LLM
-        description: ''
-        percent: 100
-        icon: bars-3
+        icon: server-stack
   - name: Lab Techniques
     color: '#3BB8BA'
     color_border: '#3BB8BA'
@@ -200,35 +161,35 @@ skills:
       - name: DNA Extraction
         description: ''
         percent: 100
-        icon: code-bracket
+        icon: sparkles
       - name: PCR
         description: ''
         percent: 100
-        icon: code-bracket
+        icon: puzzle-piece
       - name: Gel Electrophoresis
         description: ''
         percent: 100
-        icon: code-bracket
-      - name: FISH
-        description: ''
-        percent: 100
-        icon: circle-stack
+        icon: puzzle-piece
       - name: TEM
         description: ''
         percent: 100
-        icon: adjustments-horizontal
-      - name: Microtomography
+        icon: magnifying-glass
+      - name: Ultramicrotomography
         description: ''
         percent: 100
-        icon: wrench-screwdriver
-      - name: Cultivation
+        icon: magnifying-glass
+      - name: Bacterial Cultivation
         description: ''
         percent: 100
-        icon: wrench-screwdriver
-      - name: Strain Isolation
+        icon: star
+      - name: Bacterial Strain Isolation
         description: ''
         percent: 100
-        icon: bars-3
+        icon: sun
+      - name: Fluorescent in situ hybridisation
+        description: ''
+        percent: 100
+        icon: sparkles
 
 ---
 

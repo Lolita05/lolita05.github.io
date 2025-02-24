@@ -4,7 +4,7 @@ date: 2023-10-24
 type: landing
 
 design:
-  spacing: '3rem'
+  spacing: '2rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
@@ -18,10 +18,21 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+
   - block: resume-skills
     content:
       title: Skills
       username: admin
     design:
-      show_skill_percentage: true
+      show_skill_percentage: false
+  
+  - block: markdown
+    content:
+      title: 
+      subtitle: Experience
+      text: |
+        I have experience with these technologies:
+        <div style="text-align: center;">
+                    <img src="/images/techno.png" alt="Teaching Photo" style="width:15cm; height:auto;" />
+          </div>
 ---
