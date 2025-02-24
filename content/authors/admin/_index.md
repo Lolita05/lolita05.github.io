@@ -30,13 +30,18 @@ profiles:
   - icon: at-symbol
     url: 'mailto:al.lolita96@gmail.com'
     label: E-mail Me
+  - icon: brands/telegram
+    url: https://t.me/lolituy
+    label: My Telegram
   - icon: brands/github
     url: https://github.com/Lolita05
+    label: my GitHub
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/lolita-alekseeva/
+    label: my LinkedIn
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-8224-7298
-
+    label: my ORCID
 interests:
   - Bioinformatics
   - Computational Biology
