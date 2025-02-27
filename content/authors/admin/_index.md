@@ -46,6 +46,7 @@ interests:
   - Bioinformatics
   - Computational Biology
   - Cancer Research
+  - Bulk and single-cell transcriptomics 
   - Microbiome
 
 education:
